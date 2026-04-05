@@ -1,0 +1,59 @@
+name: aventura_historia
+description: Jogo educativo sobre a História de Portugal para crianças dos 10-13 anos
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+  flutter: '>=3.16.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+  # Game engine
+  flame: ^1.16.0
+  
+  # Database
+  sqflite: ^2.3.2
+  path: ^1.9.0
+  path_provider: ^2.1.2
+  
+  # State management
+  provider: ^6.1.2
+  
+  # UI & animations
+  animated_text_kit: ^4.2.2
+  lottie: ^3.1.0
+  
+  # Audio
+  audioplayers: ^5.2.1
+  
+  # Utilities
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  
+  # Testing
+  mocktail: ^1.0.3
+  sqflite_common_ffi: ^2.3.0
+  flame_test: ^1.16.0
+
+flutter:
+  uses-material-design: true
+  
+  # Assets configuration
+  assets:
+    - assets/images/
+    - assets/images/characters/
+    - assets/images/backgrounds/
+    - assets/images/icons/
+    - assets/audio/
+    - assets/audio/music/
+    - assets/audio/sfx/
+    - assets/data/

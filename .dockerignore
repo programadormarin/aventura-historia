@@ -1,0 +1,16 @@
+# Docker ignore file
+# Standard Flutter ignore
+build/
+.dart_tool/
+.flutter-plugins*
+.packages
+# pubspec.lock
+ios/
+android/
+web/
+linux/
+macos/
+windows/
+*.log
+.git/
+.planning/

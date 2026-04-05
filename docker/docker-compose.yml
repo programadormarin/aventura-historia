@@ -1,0 +1,10 @@
+services:
+  # Flutter Test Runner (to provide consistent environment for sqflite_common_ffi)
+  tester:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: aventura-historia-tester
+    volumes:
+      - ..:/app
+    working_dir: /app
